@@ -19,7 +19,7 @@ Boredness is wack, so i decided to make armor and tools made out of Redstone in 
 
 • Redstone Chestplate
 
-• Redstone Pants
+• Redstone Leggings
 
 • Redstone Boots
 
