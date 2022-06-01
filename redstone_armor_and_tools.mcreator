@@ -1,0 +1,180 @@
+{
+  "mod_elements": [
+    {
+      "name": "RedstoneArmor",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RedstoneSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_sword"
+    },
+    {
+      "name": "RedstoneAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_axe"
+    },
+    {
+      "name": "RedstonePickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_pickaxe"
+    },
+    {
+      "name": "RedstoneShovel",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_shovel"
+    },
+    {
+      "name": "RedstoneHoe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_hoe"
+    },
+    {
+      "name": "RedstoneHelmetRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_helmet_recipe"
+    },
+    {
+      "name": "RedstoneChestplateRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_chestplate_recipe"
+    },
+    {
+      "name": "RedstoneLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_leggings_recipe"
+    },
+    {
+      "name": "RedstoneBootsRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_boots_recipe"
+    },
+    {
+      "name": "RedstoneSwordRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_sword_recipe"
+    },
+    {
+      "name": "RedstoneAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_axe_recipe"
+    },
+    {
+      "name": "RedstonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_pickaxe_recipe"
+    },
+    {
+      "name": "RedstoneShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_shovel_recipe"
+    },
+    {
+      "name": "RedstoneHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_hoe_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.redstone_armor_and_tools.redstone_shovel": "Redstone Shovel",
+      "item.redstone_armor_and_tools.redstone_armor_helmet": "Redstone Helmet",
+      "item.redstone_armor_and_tools.redstone_armor_leggings": "Redstone Leggings",
+      "item.redstone_armor_and_tools.redstone_armor_chestplate": "Redstone Body",
+      "item.redstone_armor_and_tools.redstone_axe": "Redstone Axe",
+      "item.redstone_armor_and_tools.redstone_hoe": "Redstone Hoe",
+      "item.redstone_armor_and_tools.redstone_pickaxe": "Redstone Pickaxe",
+      "item.redstone_armor_and_tools.redstone_armor_boots": "Redstone Boots",
+      "item.redstone_armor_and_tools.redstone_sword": "Redstone Sword"
+    },
+    "pt_pt": {
+      "item.redstone_armor_and_tools.redstone_shovel": "Pá de redstone",
+      "item.redstone_armor_and_tools.redstone_armor_helmet": "Capacete de redstone",
+      "item.redstone_armor_and_tools.redstone_armor_leggings": "Perneiras de redstone",
+      "item.redstone_armor_and_tools.redstone_armor_chestplate": "Peitoral de redstone",
+      "item.redstone_armor_and_tools.redstone_axe": "Machado de redstone",
+      "item.redstone_armor_and_tools.redstone_hoe": "Enxada de redstone",
+      "item.redstone_armor_and_tools.redstone_pickaxe": "Picareta de redstone",
+      "item.redstone_armor_and_tools.redstone_armor_boots": "Botas de redstone",
+      "item.redstone_armor_and_tools.redstone_sword": "Espada de redstone"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "redstone_armor_and_tools",
+    "modName": "Redstone Armor and Tools",
+    "version": "1.0.0",
+    "description": "Another redstone armor mod for Minecraft 1.16.5",
+    "author": "An12854",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.redstonearmorandtools",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
