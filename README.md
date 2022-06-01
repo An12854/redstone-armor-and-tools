@@ -25,6 +25,6 @@ Boredom is wack, so i decided to make armor and tools made out of Redstone in MC
 
 ### Features:
 
-• Armor is planned to react with Redstone when the hitboxes touch each other (Planned for future updates)
+• Armor is planned to react with Redstone when the hitboxes intersect with each other (Planned for future updates)
 
 • Redstone items are planned to be created by upgrading Iron Tools & Armor with Redstone on a Smithing Table (As such the mod is limited to 1.16+ until someone finds/makes a mod that backports the smithing table to previous versions.)
