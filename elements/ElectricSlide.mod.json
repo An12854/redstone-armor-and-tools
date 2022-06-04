@@ -1,0 +1,25 @@
+{
+  "_fv": 28,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Electricity!",
+    "achievementDescription": "Equip a Redstone Chestplate",
+    "achievementIcon": {
+      "value": "CUSTOM:RedstoneArmor.body"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "story/obtain_armor"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"42\" y=\"92\"><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}

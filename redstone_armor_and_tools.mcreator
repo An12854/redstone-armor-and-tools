@@ -125,29 +125,83 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "redstone_hoe_recipe"
+    },
+    {
+      "name": "ElectricSlide",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_slide"
+    },
+    {
+      "name": "ElectricSlideTrigger",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_slide_trigger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
+    "ru_ru": {
+      "advancements.electric_slide.descr": "Оборудовать Редстоуновый нагрудник",
+      "item.redstone_armor_and_tools.redstone_shovel": "Редстоуновая лопата",
+      "item.redstone_armor_and_tools.redstone_armor_helmet": "Редстоуновый шлем",
+      "item.redstone_armor_and_tools.redstone_armor_leggings": "Редстоуновые поножи",
+      "item.redstone_armor_and_tools.redstone_armor_chestplate": "Редстоуновый нагрудник",
+      "item.redstone_armor_and_tools.redstone_axe": "Редстоуновый топор",
+      "item.redstone_armor_and_tools.redstone_hoe": "Редстоуновая мотыга",
+      "advancements.electric_slide.title": "Electricity!",
+      "item.redstone_armor_and_tools.redstone_pickaxe": "Редстоуновая кирка",
+      "item.redstone_armor_and_tools.redstone_armor_boots": "Редстоуновые ботинки",
+      "item.redstone_armor_and_tools.redstone_sword": "Редстоуновый меч"
+    },
     "en_us": {
+      "advancements.electric_slide.descr": "Have Redstone Chestplate Equipped",
       "item.redstone_armor_and_tools.redstone_shovel": "Redstone Shovel",
       "item.redstone_armor_and_tools.redstone_armor_helmet": "Redstone Helmet",
       "item.redstone_armor_and_tools.redstone_armor_leggings": "Redstone Leggings",
-      "item.redstone_armor_and_tools.redstone_armor_chestplate": "Redstone Body",
+      "item.redstone_armor_and_tools.redstone_armor_chestplate": "Redstone Chestplate",
       "item.redstone_armor_and_tools.redstone_axe": "Redstone Axe",
       "item.redstone_armor_and_tools.redstone_hoe": "Redstone Hoe",
+      "advancements.electric_slide.title": "Electricity!",
       "item.redstone_armor_and_tools.redstone_pickaxe": "Redstone Pickaxe",
       "item.redstone_armor_and_tools.redstone_armor_boots": "Redstone Boots",
       "item.redstone_armor_and_tools.redstone_sword": "Redstone Sword"
     },
+    "es_es": {
+      "advancements.electric_slide.descr": "Tenga Peto de redstone equipado",
+      "item.redstone_armor_and_tools.redstone_shovel": "Pala de redstone",
+      "item.redstone_armor_and_tools.redstone_armor_helmet": "Casco de redstone",
+      "item.redstone_armor_and_tools.redstone_armor_leggings": "Grebas de redstone",
+      "item.redstone_armor_and_tools.redstone_armor_chestplate": "Peto de redstone",
+      "item.redstone_armor_and_tools.redstone_axe": "Hacha de redstone",
+      "item.redstone_armor_and_tools.redstone_hoe": "Azada de redstone",
+      "advancements.electric_slide.title": "Electricidad!",
+      "item.redstone_armor_and_tools.redstone_pickaxe": "Pico de redstone",
+      "item.redstone_armor_and_tools.redstone_armor_boots": "Botas de redstone",
+      "item.redstone_armor_and_tools.redstone_sword": "Espada de redstone"
+    },
     "pt_pt": {
+      "advancements.electric_slide.descr": "Tenha Peitoral de redstone equipado",
       "item.redstone_armor_and_tools.redstone_shovel": "Pá de redstone",
       "item.redstone_armor_and_tools.redstone_armor_helmet": "Capacete de redstone",
       "item.redstone_armor_and_tools.redstone_armor_leggings": "Perneiras de redstone",
       "item.redstone_armor_and_tools.redstone_armor_chestplate": "Peitoral de redstone",
       "item.redstone_armor_and_tools.redstone_axe": "Machado de redstone",
       "item.redstone_armor_and_tools.redstone_hoe": "Enxada de redstone",
+      "advancements.electric_slide.title": "Electricidade!",
       "item.redstone_armor_and_tools.redstone_pickaxe": "Picareta de redstone",
       "item.redstone_armor_and_tools.redstone_armor_boots": "Botas de redstone",
       "item.redstone_armor_and_tools.redstone_sword": "Espada de redstone"
@@ -160,7 +214,7 @@
   "workspaceSettings": {
     "modid": "redstone_armor_and_tools",
     "modName": "Redstone Armor and Tools",
-    "version": "1.0.0",
+    "version": "9.9.9",
     "description": "Another redstone armor mod for Minecraft 1.16.5",
     "author": "An12854",
     "websiteURL": "https://mcreator.net",

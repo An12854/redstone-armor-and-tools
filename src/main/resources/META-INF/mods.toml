@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Academic Free License v3.0"
+license="GNU Lesser General Public License version 3 (LGPLv3)"
 
 [[mods]]
 modId="redstone_armor_and_tools"
-version="1.0.0"
+version="9.9.9"
 displayName="Redstone Armor and Tools"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
