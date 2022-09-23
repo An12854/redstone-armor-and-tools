@@ -1,5 +1,6 @@
 # redstone-armor-and-tools
-https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg
+[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+
 Mod that adds Redstone armor and tools.
 
 Boredom is wack, so i decided to make armor and tools made out of Redstone in MCreator just out of spite for modding gatekeepers.
