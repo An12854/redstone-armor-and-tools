@@ -3,7 +3,8 @@
 
 Mod that adds Redstone armor and tools.
 
-Boredom is wack, so i decided to make armor and tools made out of Redstone in MCreator just out of spite for modding gatekeepers.
+~~Boredom is wack, so i decided to make armor and tools made out of Redstone in MCreator just out of spite for modding gatekeepers.~~
+As of now, I've decided to remake this project in a proper IDE for proper open-source code
 
 ### Adds:
 
