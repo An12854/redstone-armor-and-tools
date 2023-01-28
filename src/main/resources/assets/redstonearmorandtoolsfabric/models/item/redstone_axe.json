@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "redstone_armor_and_tools:items/redstone_axe"
+  }
+}

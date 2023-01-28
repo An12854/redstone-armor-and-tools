@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "redstonearmorandtools-fabric",
+  "version": "${version}",
+  "name": "Redstone Armor and Tools [Fabric]",
+  "description": "Redstone Armor and Tools, ported to fabric",
+  "authors": [
+    "An12854"
+  ],
+  "contact": {
+    "website": "https://github.com/An12854/redstone-armor-and-tools",
+    "repo": "https://github.com/An12854/redstone-armor-and-tools"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/redstonearmorandtoolsfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.an12854.redstonearmorandtoolsfabric.client.RedstonearmorandtoolsFabricClient"
+    ],
+    "main": [
+      "com.an12854.redstonearmorandtoolsfabric.RedstonearmorandtoolsFabric"
+    ]
+  },
+  "mixins": [
+    "redstonearmorandtools-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

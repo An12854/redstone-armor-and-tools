@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "redstone_armor_and_tools:redstone_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.electric_slide.title"
+    },
+    "description": {
+      "translate": "advancements.electric_slide.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "electric_slide": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "minecraft:story/obtain_armor"
+}
