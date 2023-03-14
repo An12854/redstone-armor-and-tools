@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "redstonearmorandtools:items/redstone_leggings"
+  }
+}

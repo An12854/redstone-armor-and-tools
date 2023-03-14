@@ -1,8 +1,11 @@
 package com.an12854.redstonearmorandtools;
 
+import com.an12854.redstonearmorandtools.item.ModItems;
+import com.an12854.redstonearmorandtools.util.ModArmorMaterial;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -47,6 +50,9 @@ public class RedstoneArmorandTools
         BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
         ITEMS.register(modEventBus);
+        // Register the Deferred Register to the mod event bus so modded items get registered
+        ModItems.register(modEventBus);
+        // Register the Deferred Register to the mod event bus so modded armor get registered
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
