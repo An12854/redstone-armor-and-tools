@@ -26,7 +26,7 @@ public class ModItems {
             () -> new PickaxeItem(ModTiers.REDSTONE, -1, -2.8f,
                     new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> REDSTONE_AXE = ITEMS.register("redstone_axe",
-            () -> new AxeItem(ModTiers.REDSTONE, 4, -3.1f,
+            () -> new AxeItem(ModTiers.REDSTONE, 4, -3f,
                     new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> REDSTONE_HOE = ITEMS.register("redstone_hoe",
             () -> new HoeItem(ModTiers.REDSTONE, -4, -1f,

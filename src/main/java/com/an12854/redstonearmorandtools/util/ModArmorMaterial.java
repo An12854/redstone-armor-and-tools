@@ -12,7 +12,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements ArmorMaterial {
-    REDSTONE(RedstoneArmorandTools.MODID + ":redstone", 20, new int[]{2, 5, 6, 2}, 20, SoundEvents.ARMOR_EQUIP_IRON, 0.2F, 0F, () -> {
+    REDSTONE(RedstoneArmorandTools.MODID + ":redstone", 20, new int[]{2, 5, 6, 2}, 20, SoundEvents.ARMOR_EQUIP_IRON, 0.5F, 0F, () -> {
         return Ingredient.of(Items.REDSTONE);
     });
 
